@@ -5,44 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HARU Beauty</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main-bg-color: #f9f9f9;
+            --primary-color: #e63946;
+            --secondary-color: #f1faee;
+            --text-color: #1d3557;
+            --hover-effect: all 0.3s ease;
+        }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: var(--main-bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation styles */
+        nav { /* Add your navigation styles here */ }
+        /* Hero section styles */
+        .hero { /* Add your hero section styles here */ }
+        /* Benefits grid styles */
+        .benefits-grid { /* Add your benefits grid styles here */ }
+        /* Bestsellers section styles */
+        .bestsellers { /* Add your bestsellers styles here */ }
+        /* Routine styles */
+        .routine { /* Add your routine styles here */ }
+        /* Reviews section styles */
+        .reviews { /* Add your reviews styles here */ }
+        /* Delivery information styles */
+        .delivery-info { /* Add your delivery information styles here */ }
+        /* Trust statistics styles */
+        .trust { /* Add your trust styles here */ }
+        /* CTA and footer styles */
+        .footer { /* Add your footer styles here */ }
+    </style>
 </head>
 <body>
-    <header>
+    <nav>
+        <!-- Navigation content here -->
+    </nav>
+    <header class="hero">
         <h1>Welcome to HARU Beauty</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <!-- Hero content with product circle -->
     </header>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>HARU Beauty is dedicated to providing the best beauty products and services.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Facials</li>
-                <li>Makeup</li>
-                <li>Consultations</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 HARU Beauty. All rights reserved.</p>
+    <section class="benefits-grid">
+        <h2>Why Choose HARU?</h2>
+        <!-- Benefits content here -->
+    </section>
+    <section class="bestsellers">
+        <h2>Bestsellers</h2>
+        <!-- Bestselling products here (4 items) -->
+    </section>
+    <section class="routine">
+        <h2>Your 5-Step Routine</h2>
+        <!-- Steps content here -->
+    </section>
+    <section class="reviews">
+        <h2>What Our Customers Say</h2>
+        <!-- Reviews content here -->
+    </section>
+    <section class="delivery-info">
+        <h2>Delivery Information</h2>
+        <!-- Delivery details here -->
+    </section>
+    <section class="trust">
+        <h2>Trust Us</h2>
+        <!-- Trust statistics here -->
+    </section>
+    <section class="cta">
+        <h2>Join Us Today!</h2>
+        <!-- Final CTA content here -->
+    </section>
+    <footer class="footer">
+        <p>&copy; 2026 HARU Beauty. All Rights Reserved.</p>
+        <!-- Footer content with scroll event listener -->
     </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            // Scroll event handling code here
+        });
+    </script>
 </body>
 </html>
